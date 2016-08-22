@@ -29,7 +29,7 @@ When Reading data from sensors on iOS, be that accelerometer or RSSI, the values
 
 ## RSSI to Distance
 
-Converting the RSSI values to distances was a matter of trial and error.  I also cheated by realizing that iBeacons uses fuzzy distance terms like "Far", "Near", and "Immediate".  The reason for these values became obvious once we analyzed the actual data.  Bluetooth RSSI flucuates wildly at ranges beyond five feet and becomes more accurate at values less than 1 foot.
+Converting the RSSI values to distances was a matter of trial and error.  I also cheated by realizing that iBeacons uses fuzzy distance terms like "Far", "Near", and "Immediate".  The reason for these values became obvious once we analyzed the actual data.  Bluetooth RSSI fluctuates wildly at ranges beyond five feet and becomes more accurate at values less than 1 foot.
 
 Supposedly, different bluetooth devices are going to have varying signal strengths, but the smattering of iOS devices we measured reported the same values.
 
